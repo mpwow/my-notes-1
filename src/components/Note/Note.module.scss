@@ -1,0 +1,75 @@
+.note {
+  background: var(--white);
+  padding: var(--spacing-l);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-s);
+  display: grid;
+  gap: var(--spacing-m);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  color: var(--black);
+  margin: 0;
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-s);
+  border-radius: var(--radius-s);
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: var(--gray-100);
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--gray-400);
+  }
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xs);
+
+
+  button {
+    cursor: auto;
+  }
+}
+
+.modalNote {
+  padding: var(--spacing-m);
+}
+
+.modalTitle {
+  margin-bottom: var(--spacing-m);
+  font-size: var(--font-size-xl);
+  color: var(--black);
+}
+
+.modalContent {
+  margin-bottom: var(--spacing-m);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-m);
+  color: var(--black);
+  white-space: pre-wrap;
+}
+
+.modalTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}

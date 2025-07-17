@@ -1,0 +1,19 @@
+.search {
+  width: 100%;
+  padding: var(--spacing-m);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-s);
+  font-size: var(--font-size-m);
+  color: var(--black);
+  transition: border-color 0.2s ease;
+
+  &::placeholder {
+    color: var(--gray-400);
+  }
+
+  &:focus {
+    border-color: var(--secondary);
+  }
+
+
+}

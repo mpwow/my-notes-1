@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: var(--font-size-xl);
+}
+
+.ya {
+  color: var(--red);
+}
+
+.text {
+  color: var(--black);
+}
+
+.notesCount {
+  font-size: var(--font-size-s);
+  color: var(--gray-400);
+  margin-top: var(--spacing-s);
+}
